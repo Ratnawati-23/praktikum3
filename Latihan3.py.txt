@@ -1,0 +1,17 @@
+# program menentukan bilangan terbesar dari tiga bilangan
+
+# input tiga bilangan dari pengguna 
+a = float (input ("50: "))
+b = float (input("25: "))
+c = float (input("15: "))
+
+# menentukan bilangan terbesar 
+if a >=b and a >= c:
+    terbesar = a
+if b >= a and b >= c:
+    terbesar = b
+else:
+    terbesar = c
+
+# menampilkan hasil 
+print(f"bilangan terbesar adalah: {a}")
