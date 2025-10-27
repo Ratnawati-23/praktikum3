@@ -1,0 +1,13 @@
+print("program mengurutkan data")
+
+A = int(input("Bilangan ke-1: "))
+B = int(input("Bilangan ke-2: "))
+C = int(input("Bilangan ke-3: "))
+
+# masukan semua bilangan ke dalam list
+data = [A, B, C]
+
+# urutkan data dari kecil ke besar 
+data.sort()
+
+print("urutan bilangan:", data[0], data[1], data[2])
